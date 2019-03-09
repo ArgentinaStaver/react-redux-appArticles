@@ -1,0 +1,53 @@
+{
+  "articles": [
+    {
+      "title": "Three Principles",
+      "description": "Redux can be described in three fundamental principles:\n\nSingle source of truth\n\nThe state of your whole application is stored in an object tree within a single store.\n\nState is read-only.\n\nChanges are made with pure functions.",
+      "likes": 8,
+      "dateAdded": 1503495169129,
+      "id": 3
+    },
+    {
+      "title": "Ecosystem",
+      "description": "Redux is a tiny library, but its contracts and APIs are carefully chosen to spawn an ecosystem of tools and extensions.\n\nFor an extensive list of everything related to Redux, we recommend Awesome Redux. It contains examples, boilerplates, middleware, utility libraries, and more. React/Redux Links contains tutorials and other useful resources for anyone learning React or Redux, and Redux Ecosystem Links lists many Redux-related libraries and addons.",
+      "likes": 12,
+      "dateAdded": 1503495188847,
+      "id": 4
+    },
+    {
+      "title": "Prior Art",
+      "likes": 7,
+      "dateAdded": 1503495195357,
+      "description": "Redux has a mixed heritage. It is similar to some patterns and technologies, but is also different from them in important ways. We'll explore some of the similarities and the differences below.",
+      "id": 5
+    },
+    {
+      "title": "Actions",
+      "description": "First, let's define some actions.\n\nActions are payloads of information that send data from your application to your store. They are the only source of information for the store. You send them to the store using store.dispatch().",
+      "likes": 4,
+      "dateAdded": 1503563460164,
+      "id": 6
+    },
+    {
+      "title": "Core Concepts",
+      "description": "Redux itself is very simple.\n\nImagine your app’s state is described as a plain object. For example, the state of a todo app might look like this:\n\n{\n  todos: [{\n    text: 'Eat food',\n    completed: true\n  }, {\n    text: 'Exercise',\n    completed: false\n  }],\n  visibilityFilter: 'SHOW_COMPLETED'\n}",
+      "likes": 6,
+      "dateAdded": 1503563464555,
+      "id": 7
+    },
+    {
+      "title": "Motivation",
+      "description": "As the requirements for JavaScript single-page applications have become increasingly complicated, our code must manage more state than ever before. This state can include server responses and cached data, as well as locally created data that has not yet been persisted to the server. UI state is also increasing in complexity, as we need to manage active routes, selected tabs, spinners, pagination controls, and so on.",
+      "likes": 9,
+      "dateAdded": 1503563704581,
+      "id": 8
+    },
+    {
+      "title": "Three Principles",
+      "description": "Redux can be described in three fundamental principles: Single source of truth The state of your whole application is stored in an object tree within a single store. State is read-only. Changes are made with pure functions.",
+      "likes": 2,
+      "dateAdded": 1552048418355,
+      "id": 9
+    }
+  ]
+}
